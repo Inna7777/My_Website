@@ -1,0 +1,60 @@
+head{
+	text-align: center;
+	padding: 40px, 20px;
+}
+body{
+	background-image:url(../img/fon.jpg) ;
+	background-position: right, center;
+	background-size: cover ;	
+}
+.aligncenter{
+	text-align: center;
+}
+ol{
+	margin-top: 100px;
+	text-indent: 10px;
+	margin-left: 100px;
+}
+ul{
+	color:#2a67cb;
+	
+}
+h3,h2 {
+	color:#0f3f6d;
+}
+.strong,h1{
+	color:#042961;
+}
+p{
+	font-family:Comic Sans MS;
+	font-size:20px;
+	text-indent:30px;
+}
+.line{
+	font-weight:bold;
+	text-decoration:underline;
+}
+.line2{
+	font-style:italic;
+	text-decoration:line-through;
+}
+a{
+	text-decoration:none;
+	font-style:bold;
+	font-size:25px;
+}
+a:visited {
+	color:#800080;
+}
+a:hover{
+	color:#800000;
+}
+h1{
+	text-align:center;
+}
+.new{
+	font-style: italic;
+	text-align: center;
+	font-weight: 700px;
+
+}
