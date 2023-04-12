@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="js/bootom.js" defer></script>
+
+<title>Форма заказа</title>
+<link href="style/stial.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<p>
+ Заказ
+ </p>
+ <form action="formdata.php" method="POST" name="forma" >
+ <fieldset>
+ <legend>ввод личных данных</legend>
+<p><label>Введите Ваше имя:<input type="text" name="name" size="30" maxlength="10" id ="myInput2"></label></p>
+<p><label>Введите Ваш mail:<input type="email" name="name" size="30" maxlength="10" id ="myInput"></label></p>
+</fieldset>
+<fieldset>
+<legend>Заказ</legend>
+<p>Хотите вещь на заказ?</p>
+<p><label>Да<input type="radio" name="tame" value="yes" checked></label><label>Нет<input type="radio" name="tame" value="no"></label></p>
+<p>Что Вы хотите заказать?</p>
+<p><label><input type="checkbox" name="pikch">Картина</label>
+<label><input type="checkbox" name="skaf">Шарф</label>
+<label><input type="checkbox" name="singk">Платок</label>
+</p>
+<p>Размер:</p>
+<p>
+<select name="saze" size="1">
+<option>50x50</option>
+<option>70x70</option>
+<option selected>80x80</option>
+<option>90x90</option>
+<option>100x100</option>
+</select>
+</fieldset>
+</p>
+<p><label for="text">Дополнительные пожелания</label></p>
+<p><textarea name="text" cols="110" rows="15" id="text">
+</textarea></p>
+<p><input type="reset" name="reset" value="Очистить">     
+    <input type="button" onclick="getValue();" name="submit" value="Отправить"></p>
+ </form>
+ 
+</body
